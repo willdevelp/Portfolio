@@ -158,6 +158,7 @@ function App() {
                       ? 'bg-blue-400 text-white' 
                       : 'text-gray-600 hover:bg-blue-50'
                   } transition-colors capitalize`}
+                  style={{ color: '#60a5fa' }}
                 >
                   {section === 'about' ? 'À propos' : 
                    section === 'skills' ? 'Compétences' : 
